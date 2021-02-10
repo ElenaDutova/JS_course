@@ -1,9 +1,28 @@
 "use strict";
 
-let number = 4;
+let number = 5.8;
 
-const rightBorderHeight = {
-    a: 10
+console.log(9/0);
+console.log("name" * 9);
+
+const people = "Lena";
+
+let bool = true;
+
+let und;
+
+console.log(und);
+
+const object = {
+    name: "Eva",
+    age: 25,
+    isCat: false
 };
 
-console.log(rightBorderHeight);
+console.log(object["age"]);
+console.log(object.age);
+
+let arr = [2, 5, 10, 'peach.ipg', false];
+
+console.log(arr[4]);
+
