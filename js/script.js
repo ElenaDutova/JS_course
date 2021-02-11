@@ -1,28 +1,17 @@
 "use strict";
 
-let number = 5.8;
+/* const result = confirm("Are you here?");
+console.log(result); */
 
-console.log(9/0);
-console.log("name" * 9);
+/* alert("Hello"); */
 
-const people = "Lena";
+/* const answer = +prompt("Your name?", "18");
+console.log(answer + 5); */
 
-let bool = true;
+const answers = [];
 
-let und;
+/* answers[0] = prompt("What is yor name?", "");
+answers[1] = prompt("What is yor age?", "");
+answers[2] = prompt("What?", ""); */
 
-console.log(und);
-
-const object = {
-    name: "Eva",
-    age: 25,
-    isCat: false
-};
-
-console.log(object["age"]);
-console.log(object.age);
-
-let arr = [2, 5, 10, 'peach.ipg', false];
-
-console.log(arr[4]);
-
+console.log(typeof(answers));
